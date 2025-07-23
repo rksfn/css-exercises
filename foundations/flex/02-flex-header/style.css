@@ -1,7 +1,10 @@
 .header {
     font-family: monospace;
     background: papayawhip;
+    padding: 20px;
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .logo {
@@ -20,9 +23,7 @@ ul {
     list-style: none;
     list-style-type: none;
     display: flex;
-    gap: 30px;
-    align-items: center;
-    justify-content: center;
+    gap: 20px;
 }
 
 a {
